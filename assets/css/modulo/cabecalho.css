@@ -1,0 +1,50 @@
+.cabecalho {
+    background-color: var(--backgroundHeaderEFooter);
+}
+
+.cabecalho-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 2vw;
+    width: 90%;
+    padding: 2rem;
+}
+
+.container-logoPesquisa {
+    align-items: center;
+    display: flex;
+    gap: 2vw;
+    width: 100%;
+}
+
+.cabecalho__pesquisa {
+    max-width: 393px;
+    width: 100%;
+}
+
+.cabecalho__pesquisa{
+    background-color: var(--backgroundPrincipal);
+    font-weight: 400;
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 1.25rem;
+}
+
+.cabecalho__pesquisa::placeholder{
+    background: url('../../img/icons/lupa.png') no-repeat;
+    background-position: calc(100% - 1rem) 50%;   
+}
+
+.cabecalho__login{
+    text-align: center;
+    max-width: 11.35rem;
+    width: 100%;
+    padding: 1rem;
+    font-weight: 400;
+    font-size: 1rem;
+    border: 1px solid var(--link);
+    color: var(--link);
+}
